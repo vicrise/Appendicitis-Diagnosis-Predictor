@@ -9,7 +9,7 @@ from imblearn.over_sampling import SMOTE
 from xgboost import XGBClassifier
 
 # ------------------- FIX: Correct path -------------------
-DATA_PATH = r"C:\Users\USER\Downloads\python script\Appenditics\cleaned data.csv"
+DATA_PATH = "cleaned_data.csv"
 
 # ------------------- Page config -------------------
 st.set_page_config(
@@ -252,4 +252,5 @@ else:
 
 # Footer
 st.markdown("---")
+
 st.caption("XGBoost + SMOTE • Trained on real clinical data • Built with Streamlit")
